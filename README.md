@@ -36,6 +36,10 @@ There is an `example-page` folder in the repository. Inside, you can find an exa
 
 
 
+# Mini DOCS
+
+
+
 # Authors
 
 qamarq#9999
