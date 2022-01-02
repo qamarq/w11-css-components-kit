@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <title>W11-Components</title>
+        <link rel="stylesheet" href="./w11-components.css"></link>
+    </head>
+    <body>
+        <div class="banner">
+            <span class="material-icons primary-icon">info</span>            
+            <h1>Title</h1>
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <div class="btn secondary">
+                <p>Text</p>
+            </div>
+            <span class="material-icons secondary-icon">clear</span>
+        </div>
+
+        <div class="content">
+            <div class="content-left">
+                <div class="content-left-first">
+                    <div class="content-left-first--left">
+                        <div class="dialog">
+                            <p class="dialog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            <div class="dialog--buttons">
+                                <div class="btn primary">
+                                    <p>Text</p>
+                                </div>
+                                <div class="btn secondary">
+                                    <p>Text</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <textarea name="myInput" cols="45" rows="7" minlength="1" maxlength="500" required></textarea>
+                    </div>
+                    <div class="content-left-first--right">
+                        <div class="textbox">
+                            <input class="textbox-input" type="password">
+                            <span class="material-icons-outlined textbox-icon">visibility</span> 
+                        </div>
+
+                        <div class="textbox">
+                            <input class="textbox-input" type="text">
+                            <span class="material-icons-outlined textbox-icon">clear</span> 
+                        </div>
+
+                        <div class="textbox">
+                            <input class="textbox-input" type="text">
+                            <span class="material-icons-outlined textbox-icon">expand_less</span>
+                            <span class="material-icons-outlined textbox-icon">expand_more</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-left-second">
+                    <div class="video-example">
+                        <span class="material-icons icon-main">play_arrow</span>
+                        <input type="range" class="slider" id="slider" min="1" max="100" value="35">
+                        <span class="material-icons-outlined icon">volume_up</span>
+                        <span class="material-icons-outlined icon">subtitles</span>
+                        <span class="material-icons-outlined icon">fullscreen</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="content-right-first">
+                    <p>Header</p>
+                    <div class="content-right-first--item">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="switch-inside"></span>
+                        </label>
+                        
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="switch-inside"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="content-right-first">
+                    <p>Header</p>
+                    <div class="content-right-first--item">
+                        <input type="range" class="slider" id="slider" min="1" max="100" value="35">
+                    </div>
+                </div>
+
+                <div class="content-right-second">
+                    <div class="content-right-second--item">
+                        <p>Header</p>
+                        <label class="check-box">Text
+                            <input type="checkbox">
+                            <span class="checkmark-checkbox"></span>
+                        </label>
+                        <label class="check-box">Text
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark-checkbox"></span>
+                        </label>
+                        <label class="check-box">Text
+                            <input type="checkbox">
+                            <span class="checkmark-checkbox"></span>
+                        </label>
+                        <label class="check-box">Text
+                            <input type="checkbox">
+                            <span class="checkmark-checkbox"></span>
+                        </label>
+                    </div>
+
+                    <div class="content-right-second--item">
+                        <p>Header</p>
+                        <label class="radio-button">Text
+                            <input type="radio" name="radio">
+                            <span class="checkmark-radiobutton"></span>
+                        </label>
+                        <label class="radio-button">Text
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark-radiobutton"></span>
+                        </label>
+                        <label class="radio-button">Text
+                            <input type="radio" name="radio">
+                            <span class="checkmark-radiobutton"></span>
+                        </label>
+                        <label class="radio-button">Text
+                            <input type="radio" name="radio">
+                            <span class="checkmark-radiobutton"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var sliders_list = document.getElementsByClassName("slider");
+            for (i = 0; i < sliders_list.length; i++) {
+                sliders_list[i].oninput = function() {
+                    var value = (this.value-this.min)/(this.max-this.min)*100
+                    this.style.background = 'linear-gradient(to right, var(--slider-bg-left) 0%, var(--slider-bg-left) ' + value + '%, var(--slider-bg-right) ' + value + '%, var(--slider-bg-right) 100%)'
+                };
+            }
+        </script>
+    </body>
+</html>
