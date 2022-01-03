@@ -105,19 +105,6 @@
     }
 }
 
-/* Main */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    padding: 100px;
-    background-color: var(--bg-main);
-    font-family: 'Montserrat', sans-serif;
-}
-
-
 
 
 
