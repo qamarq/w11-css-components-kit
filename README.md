@@ -138,7 +138,7 @@ Slider:
 - HTML:
 ```html
 <!-- Value 35 is 35% width on slider default thumb position -->
-<input type="range" class="slider" id="slider" min="1" max="100" value="35">
+<input type="range" class="slider" min="1" max="100" value="35">
 ```
 - JS
 ```js
