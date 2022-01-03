@@ -1,6 +1,6 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="qamarq" src="https://i.imgur.com/IRySH8e.png">  
 
----
+
 ## 🍫 CSS Components kit inspired by Windows 11 UI - Kamil Marczak (aka qamarq) 🍫
 **[PL]**
 Jeżeli chcesz zrobić stronę w stylu najnowszego Windowsa 11, możesz wykorzystać mój CSS z gotowymi komponentami, takimi jak przyciski, pola tekstowe czy pola wyboru.
