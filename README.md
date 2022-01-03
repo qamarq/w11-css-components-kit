@@ -1,6 +1,7 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="qamarq" src="https://i.imgur.com/IRySH8e.png">  
 
-# CSS Components kit inspired by Windows 11 UI - Kamil Marczak (aka qamarq)
+---
+## 🍫 CSS Components kit inspired by Windows 11 UI - Kamil Marczak (aka qamarq) 🍫
 **[PL]**
 Jeżeli chcesz zrobić stronę w stylu najnowszego Windowsa 11, możesz wykorzystać mój CSS z gotowymi komponentami, takimi jak przyciski, pola tekstowe czy pola wyboru.
 
@@ -9,7 +10,8 @@ If you want to make a website in the style of the latest Windows 11, you can use
 
 
 
-# Get started
+---
+## 🛫 Get started
 **[PL]**
 1. Pobierz plik `w11-components.css` z folderu `src` i umieść go w swoim projekcie
 2. W swoim pliku `.html` dodaj w sekcji `<head>` następujące odwołanie: `<link rel="stylesheet" href="./w11-components.css"></link>`
@@ -22,7 +24,8 @@ If you want to make a website in the style of the latest Windows 11, you can use
 
 
 
-# Example page
+---
+## 🌍 Example page
 **[PL]**
 W repozytorium znajduje się folder `example-page`. W środku możesz znaleźć przykładową stronę prezentującą komponenty.
 
@@ -151,15 +154,16 @@ for (i = 0; i < sliders_list.length; i++) {
 ```
 
 
-
-# Authors
+---
+## 🚶‍♂️ Author
 
 qamarq#9999
 [![Paypal Doante](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/KMarczak123)
 [![Discord](https://discordapp.com/api/guilds/772941356423315527/embed.png)](https://discord.gg/buSQU2Bjxc)
 
 
-# LICENSE
+---
+## 🔨 LICENSE
 **[PL]**
 1. Arkusz CSS możesz edytować do woli i udostępniać swoje wersje. 
 2. Jeżeli chcesz wykorzystać ten arkusz CSS na swojej stronie, musisz podać w komentarzu lub stopce link tego repozytorium (https://github.com/QamarQ/w11-css-components-kit/)
